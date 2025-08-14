@@ -1,6 +1,6 @@
 ---
 layout: post
-title: From PPO to FPO: Flow Models for Better Policies
+title: From PPO to FPO- Flow Models for Better Policies
 tags:
   - reinforcement-learning
   - ppo
