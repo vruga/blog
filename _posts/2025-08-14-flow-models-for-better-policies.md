@@ -1,20 +1,18 @@
 ---
-
 layout: post
 title: From PPO to FPO: Flow Models for Better Policies
-tags: 
-      - reinforcement-learning
-      - ppo
-      - fpo
-      - flow-matching
-      - sim-to-real
-      - policy-optimization
-description: Understanding flow based models for better guided rl policies
-
+tags:
+  - reinforcement-learning
+  - ppo
+  - fpo
+  - flow-matching
+  - sim-to-real
+  - policy-optimization
+description: Understanding flow-based models for better guided RL policies
 ---
 
--- [Vrushtee Gaikwad](https://github.com/vruga)
--- [Tirth Gada](https://github.com/Dimios45)
+- [Vrushtee Gaikwad](https://github.com/vruga)
+- [Tirth Gada](https://github.com/Dimios45)
 
 # PPO and FPO Notes
 
@@ -87,6 +85,8 @@ Process:
 4. Integrate the learned vector field from noise to the data distribution.
 
 **Conditional Flow Matching (CFM)** [5] conditions the flow on inputs (e.g., observations or states) and works well for visual and control tasks.
+
+![](/assets/posts/flow-models-for-better-policies/vector_field.gif)
 
 # Flow Policy Optimization (FPO)
 
